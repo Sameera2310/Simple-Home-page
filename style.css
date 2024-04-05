@@ -1,0 +1,67 @@
+*{
+    font-family: 'Tahoma',sans-serif;
+}
+.navbar{
+    background-color: white;
+}
+.logo{
+    width: 100px;
+}
+.nav-link{
+    color: black;
+    
+}
+.navbar .nav-link .active{
+    color: rgb(105, 5, 5);
+    text-decoration: underline;
+
+}
+.signup{
+    width: 120px;
+    height: 50px; 
+    background-color: transparent;
+    border: solid thin black;
+    border-radius: 15px;
+}
+.signup:hover{
+    background-color: rgb(67, 66, 66);
+    color: whitesmoke;
+    border-color:rgb(67, 66, 66) ;
+}
+.login{
+    width: 120px;
+    height: 50px;               
+    background-color: black;
+    border: solid thin black;
+    border-radius: 15px;
+    color: white;
+}
+.login:hover{
+    background-color: rgb(203, 197, 197);
+    color: black;
+    border-color:rgb(203, 197, 197) ;
+}
+.pp-t{
+    padding-top: 90px;
+}
+section{
+    height: 100vh;
+    background-color: white;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    color:rgb(64, 63, 63);
+}
+.blur{
+background-image: url("../assests/blur.svg");
+background-position: right;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.responsible{
+    opacity: 0.18;
+    position: absolute;
+    top: 100px;
+}
